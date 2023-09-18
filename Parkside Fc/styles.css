@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  caret-color: transparent;
+}
+.silly-title{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.7rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.navbar-brand:hover {
+  opacity: 60%;
+}
+
+.navbar-brand img {
+  margin: 0px 20px 0px 50px;
+}
+
+.navbar-nav a {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  color: #8e8d8c;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar-nav a:hover {
+  color: #eda15b;
+  transition: 1s;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 400px;
+}
+
+#img1 {
+  object-position: 50% 20%;
+}
+
+#img2 {
+  object-position: 50% 30%;
+}
+
+.col-sm-12 p {
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  margin: 0px;
+  font-size: 1rem;
+}
+
+.col-sm-12 h3 {
+  position: top;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.7rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.col-sm-12 p {
+  padding: 30px 80px;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+.card-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+.btn btn-outline-secondary{
+  text-align: center;
+}
+
+.fixtures {
+  margin: 30px 0px;
+}
+.new-fixture {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.new-fixture h3 {
+  letter-spacing: 8px;
+  font-weight: 200;
+}
+
+.past-fixtures {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.past-fixtures h3 {
+  letter-spacing: 8px;
+  font-weight: 200;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.yt-content h3 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 8px;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* .goals {
+  color: #eda15b;
+} */
+
+.match-vid {
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+.sponsorships {
+  /* background-color: #eda15b0a; */
+  padding: 40px 0px;
+}
+
+.sponsorships h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+#thefa,
+#youtube,
+#kickitout,
+#leaguelogo {
+  padding: 10px 50px 20px 50px;
+}
+
+#thefa:hover,
+#youtube:hover,
+#kickitout:hover,
+#leaguelogo:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: translateY(-5px);
+}
+
+#thefa img {
+  width: 80px;
+  height: 125px;
+  filter: grayscale(100%);
+}
+
+#youtube img {
+  width: 120px;
+  height: 60px;
+  filter: grayscale(100%);
+}
+
+#kickitout img {
+  width: 110px;
+  height: 100px;
+  filter: grayscale(100%);
+}
+
+#leaguelogo img {
+  width: 100px;
+  height: 100px;
+  filter: grayscale(100%);
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+footer h3 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 8px;
+  line-height: 2;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1rem;
+}
+
+footer p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.f-nav-list a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.f-nav-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.s-nav-links {
+  text-decoration: none;
+  color: #000000a3;
+}
+
+.s-nav-links:hover {
+  cursor: pointer;
+}
+
+.contact-us li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  padding: 0px;
+  list-style: none;
+}
+
+.contact-us ul {
+  padding: 0px;
+}
+
+.f-about,
+.f-social,
+.contact-us {
+  padding-bottom: 30px;
+}
